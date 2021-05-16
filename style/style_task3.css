@@ -1,0 +1,54 @@
+body {
+ 
+   display: flex;
+
+   flex-direction: column;
+
+}
+
+
+
+header,
+footer {
+
+  display:flex;
+
+  height: 20vh; /*you can use pixels e.g. 200px*/
+
+  align-items:center;
+  
+  background-color: grey;
+ 
+}
+
+main {
+
+   flex: 1;
+ 
+}
+
+main {
+ 
+  display: flex;
+ 
+}
+
+nav,
+ 
+aside {
+  display: flex;
+  width: 20vw;
+  background-color: purple;
+}
+
+article {
+ 
+   flex: 1;
+   background-color: pink;
+}
+
+nav {
+ 
+  order: -1;
+ 
+}
